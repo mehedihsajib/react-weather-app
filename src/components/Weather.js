@@ -43,7 +43,7 @@ class Weather extends Component {
 
     axios
       .get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${inputCity}&units=metric&appid=${apiKey}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${inputCity}&units=metric&appid=${apiKey}`
       )
       .then((response) => {
         const city = response.data.name;
