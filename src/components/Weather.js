@@ -5,7 +5,6 @@ import WeatherIcons from "./WeatherIcons";
 import GetCalender from "./GetCalender";
 
 const apiKey = "86288fe86b39a8af16aa77ef58c7086f";
-// const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=london,uk&units=metric&appid=${apiKey}`;
 
 class Weather extends Component {
   // States

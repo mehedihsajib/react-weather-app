@@ -236,4 +236,20 @@ body {
     width: 100%;
     margin-left: 0;
   }
+
+  .date-dayname {
+    font-size: 16px;
+  }
+
+  .location {
+    font-size: 16px;
+  }
+
+  .weather-icon {
+    font-size: 30px;
+  }
+
+  .weather-temp {
+    font-size: 30px;
+  }
 }
